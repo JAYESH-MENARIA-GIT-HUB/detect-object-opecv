@@ -20,3 +20,5 @@ WORKDIR /app
 # Optionally, copy your application files to the container
 COPY . /app
 
+CMD ["python3","main.py"]
+
